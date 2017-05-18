@@ -1,0 +1,22 @@
+The project contains a Gaussian Naive Bayes Classifier. Gaussian means that the predictor variables (x1 ... xn) are all numeric data and that the distribution of each of the variables is normally distributed. 
+
+Input:
+filename: The name of the textfile containing the data.
+isLast: true if the ground truth values of the dependent variable is in the last column.
+delimitter: delimitter of the file. Usually "," for csv.
+hasIndexCol: true if the data has an index column. That column is ignored in the learning.
+
+Start:
+Make an object of the class using the constructor and provide your inputs there. Call the run() method of the object.
+
+Output:
+To get a prediction, call the predict() method of the nbc object. The predict method takes a double[] as argument which is an array that has the values of the predictor variables in the same order as the learning data. This classifier does not support missing values.
+The output will be a string which is the name of the category. Look at the example class for more info on the io.
+
+
+
+
+
+
+
+
